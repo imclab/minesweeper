@@ -1,0 +1,96 @@
+@font-face {
+	font-family: coder;
+	src: url('coder.ttf');
+}
+
+body {
+	font-family: 'Helvetica', 'Arial';
+	font-size: 12px;
+	font-color: #222;
+	margin-top: 7%;
+}
+
+h1 {
+	font-family: coder, 'Futura', 'Helvetica', 'Arial';
+	text-align: center;
+	font-weight: normal;
+	font-size: 30px;
+	font-smooth: never;
+	-webkit-font-smoothing: none;
+	text-shadow: 2px 2px #97CEEC;
+	margin: 0;
+}
+
+#message {
+	text-align: center;
+	font-family: 'Helvetica', 'Arial';
+	width: 332px;
+	height: 14px;
+	padding: 5px 10px;
+	background-color: #97CEEC;
+	margin: 10px auto;
+	color: #FFF;
+}
+
+#messageText {
+	display: none;
+}
+
+#board {
+	font-family: coder, 'Futura', 'Helvetica', 'Arial';
+	font-size: 16px;
+	font-family: coder;
+	text-align: center;
+	margin: 0 auto;
+	font-smooth: never;
+	-webkit-font-smoothing: none;
+	width: 354px;
+	height: 354px;
+	display: none;
+}
+
+strong {
+	color: #97CEEC;
+}
+
+.tile {
+	background-color: #000;
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	border: 1px solid #000;
+	box-shadow: 2px 2px #97CEEC;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+.tile img {
+	display: none;
+	margin: 3px 0 0 3px;
+}
+
+#info {
+	width: 328px;
+	height: 328px;
+	padding: 10px;
+	margin: 0 auto;
+	border: 1px solid #000;
+	box-shadow: 2px 2px #97CEEC;
+	display: none;
+	line-height: 28px;
+	text-align: justify;
+}
+
+#infoLink {
+	text-align: center;
+	font-weight: bold;
+	color: #97CEEC;
+	cursor: pointer;
+	margin: 10px auto;
+	display: block;
+}
+
+#infoLink:hover {
+	text-decoration: underline;
+}
